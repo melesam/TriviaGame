@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>TriviaGame</title>
+
+    <!-- Our CSS style sheet -->
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+
+  <body>
+
+    
+
+
+
+<!--Carousel html -->
+
+       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <!-- Carousel Indicators -->
+      <ol class="carousel-indicators">
+
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+
+      </ol>
+
+
+	  <div class="carousel-inner" role="listbox">
+
+	        <div class="item active">
+
+	          <img class="first-slide" src="assets/images/urinarysystem.jpeg" alt="First slide">
+	          <div class="container">
+	            <div class="carousel-caption">
+	              <h1>Which organ makes urine?</h1>
+	              <p>Kidney</P>
+	              	<ul class="answers">  
+
+					<li><input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> Answer 1</label></li>
+					<li><input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> Kidney</label></li>
+					<li><input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> Answer 3</label></li>
+					<li><input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> Answer 4</label></li>
+							
+					</ul>     
+
+	              <p><a class="btn btn-lg btn-primary" id="results">Submit</a></p>
+	            </div>
+	          </div>
+	        </div>
+
+
+	        <div class="item">
+	          <img class="second-slide" src="assets/images/tailbone.jpeg" alt="Second slide">
+	          <div class="container">
+	            <div class="carousel-caption">
+	              <h1>What is the scientific name for the tail bone?</h1>
+	              <p>Coccyx</p>
+
+	              <ul class="answers">  
+
+					<li><input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> Answer 1</label></li>
+					<br/>          
+					<li><input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> Answer2</label></li>
+					<br/>            
+					<li><input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> Answer 3</label></li>
+					<br/>            
+					<li><input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> Coccyx</label></li>
+					<br/>       
+							
+					</ul>
+
+	              <p><a class="btn btn-lg btn-primary" id="results">Submit</a></p>
+	            </div>
+	          </div>
+	        </div>
+
+
+	        <div class="item">
+	          <img class="third-slide" src="assets/images/digestive2.jpeg" alt="Third slide">
+	          <div class="container">
+	            <div class="carousel-caption">
+	              <h1>Which is the most acidic part of the digestive system?</h1>
+	              <p>Stomach</p>
+
+	              <ul class="answers">  
+
+					<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> Answer 1</label><br/>          
+					<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> Answer2</label><br/>            
+					<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> Stomach</label><br/>            
+					<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> Answer4</label><br/>       
+							
+					</ul>
+
+	              <p><a class="btn btn-lg btn-primary" id="results">Submit</a></p>
+	            </div>
+	          </div>
+	        </div>
+
+
+			<div class="item">
+	          <img class="fourth-slide" src="assets/images/diaphragm.jpeg" alt="Fourth slide">
+	          <div class="container">
+	            <div class="carousel-caption">
+	              <h1>Which is the term for a series of uncontrollable  intakes of air caused by sudden spasms of the diaphragm?</h1>
+	              <p>Hiccups</p>
+
+	              <ul class="answers">  
+
+					<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> Answer1</label><br/>          
+					<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> Answer2</label><br/>            
+					<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> Answer3</label><br/>            
+					<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> Hiccups</label><br/>       
+							
+					</ul>
+
+	              <p><a class="btn btn-lg btn-primary" id="results">Submit</a></p>
+	            </div>
+	          </div>
+	        </div>
+
+
+	        <div class="item">
+	          <img class="fifth-slide" src="assets/images/body.jpeg" alt="Fifth slide">
+	          <div class="container">
+	            <div class="carousel-caption">
+	              <h1>What makes up 60-70% of human body weight?</h1>
+	              <p>Water</p>
+
+	              <ul class="answers">  
+
+					<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> Water</label><br/>          
+					<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> Answer2</label><br/>            
+					<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> Answer3</label><br/>            
+					<input type="radio" name="q1" value="d" id="q1d"><label for="q1d"> Answer4</label><br/>       
+							
+					</ul>
+
+	              <p><a class="btn btn-lg btn-primary" id="results">Submit</a></p>
+	            </div>
+	          </div>
+	        </div>
+
+
+	        <div class="item">
+	          <img class="sixth-slide" src="assets/images/digestive.jpeg" alt="Sixth slide">
+	          <div class="container">
+	            <div class="carousel-caption">
+	            <h1>Which part of the gut absorbs water from the food?</h1>
+	              <p>Colon</p>
+
+	              <ul class="answers">  
+
+					<input type="radio" name="q1" value="a" id="q1a"><label for="q1a"> Colon</label><br/>          
+					<input type="radio" name="q1" value="b" id="q1b"><label for="q1b"> Answer2</label><br/>            
+					<input type="radio" name="q1" value="c" id="q1c"><label for="q1c"> Answer 3</label><br/>            
+					<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Answer4</label><br/>       
+							
+					</ul>
+	              <p><a class="btn btn-lg btn-primary" id="results">Submit</a></p>
+	            </div>
+	          </div>
+	        </div>
+	    </div>
+
+
+	<br/>
+
+<!-- may not want to use 
+<div id="results">            
+Show Answers       
+</div>                
+
+<div id="category1">            
+<p>              
+<strong>Question 1:</strong> The correct answer is the <strong>Answer 1</strong>.</p>        
+</div>        
+
+<div id="category2">            
+<p>              
+<strong>Question 2:</strong> The correct answer is <strong>Answer 2</strong>.</p>        
+</div>        
+-->
+
+
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+<!--	<div id="wrapper">  -->
+
+      <div id="display">00:00</div>
+
+
+      <!-- Div containing our stopwatch controls -->
+      <div id="timer">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+      </div>
+
+     
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Script -->
+
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+  </body>
+
+</html>
