@@ -7,8 +7,8 @@ body {
   background-color: lightblue;
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+
+
 
 /* Carousel base class */
 .carousel {
@@ -37,9 +37,10 @@ body {
 
 /*answer keys and answers*/
 
-ul .answers li{
+ul .answers li, #q1a, #q1b, #q1c, #q1d{
 	display: inline;
 }
+
 
 
 
