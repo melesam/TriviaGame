@@ -7,9 +7,12 @@ $(document).ready(function(){
   var userGuess = "";
   $("#myCarousel").hide();
 
-    $("#stop").on("click", stopwatch.stop);
+  $("#stop").on("click", stopwatch.stop);
   $("#reset").on("click", stopwatch.reset);
   $("#start").on("click", stopwatch.start);
+
+  var questions = [{
+    }]
 
   function checkAnswers(q1, q2, q3, q4){
 
